@@ -1,0 +1,8 @@
+.shell {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  @include max(800px) {
+    padding: 0 3.6rem;
+  }
+}
