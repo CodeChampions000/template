@@ -10,7 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
     "astro": "^4.5.10",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
     "sass": "^1.72.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.29"
   }
 }
