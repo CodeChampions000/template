@@ -1,5 +1,13 @@
 html {
+  max-width: 100%;
   overflow-x: hidden;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: $bg;
+  min-height: 100vh;
 }
 
 .shell {
