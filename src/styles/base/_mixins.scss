@@ -13,3 +13,11 @@ Media mixins
     @content;
   }
 }
+
+/* -----------
+Transitions
+----------- */
+
+@mixin tra($duration: 0.5s) {
+  transition: all $duration;
+}

@@ -7,9 +7,36 @@ html {
 
 body {
   font-size: 1.6rem;
-  color: $p;
 }
 
 /* -----------
-Typography classes
+Font sizes REM
 ----------- */
+
+.fs-2-1 {
+  font-size: 2.1rem;
+}
+
+/* -----------
+Line height REM
+----------- */
+
+.lh-2-1 {
+  line-height: 2.1rem;
+}
+
+/* -----------
+Letter spacing PIXELS
+----------- */
+
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+/* -----------
+Colors
+----------- */
+
+.w {
+  color: $w;
+}

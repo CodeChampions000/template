@@ -10,11 +10,34 @@ body {
   min-height: 100vh;
 }
 
-.shell {
+section {
+  padding: 0 2.4rem;
+
+  @include min(1600px) {
+    padding: 0;
+  }
+}
+
+a {
+  @include tra();
+  text-decoration: none;
+  color: $text-color;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+.container {
   max-width: 1440px;
   margin: 0 auto;
+}
 
-  @include max(800px) {
-    padding: 0 3.6rem;
-  }
+.nopadding {
+  padding: 0 !important;
+}
+
+.pointer {
+  cursor: pointer;
+  user-select: none;
 }

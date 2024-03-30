@@ -3,7 +3,12 @@
 // import Icon from "..."
 // <Icon id="home" cl="home"/>
 
-const {id, cl } = Astro.props
+interface Props {
+    id: string;
+    cl: string;
+}
+
+const {id, cl = "" } = Astro.props
 
 ---
 
