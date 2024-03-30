@@ -11,6 +11,7 @@
     "svg": "gulp svgSpriteBuild"
   },
   "dependencies": {
+    "@splidejs/splide": "^4.1.4",
     "@studio-freight/lenis": "^1.0.42",
     "astro": "^4.5.10",
     "gsap": "^3.12.5",
