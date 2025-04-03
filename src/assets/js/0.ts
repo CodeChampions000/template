@@ -1,5 +1,5 @@
 import scroll from "./scroll";
 
-$(function () {
+document.addEventListener("DOMContentLoaded", function () {
   scroll();
 });

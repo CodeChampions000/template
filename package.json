@@ -11,15 +11,12 @@
     "svg": "gulp svgSpriteBuild"
   },
   "dependencies": {
-    "@splidejs/splide": "^4.1.4",
     "@studio-freight/lenis": "^1.0.42",
     "astro": "^4.5.10",
     "gsap": "^3.12.5",
-    "jquery": "^3.7.1",
     "sass": "^1.72.0"
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.29",
     "gulp": "^4.0.2",
     "gulp-cheerio": "^1.0.0",
     "gulp-replace": "^1.1.4",
